@@ -10,7 +10,7 @@ public class RectangleTest {
         Rectangle rectangle = new Rectangle();
         rectangle.setLength(10); // Setting the length for calculation
         rectangle.setWidth(5);   // Setting the width for calculation
-        assertEquals(50, rectangle.area(10, 5), 0.1);
+        assertEquals(50, rectangle.area(), 0.1); // Calling area() without parameters
     }
 
     @Test
